@@ -13,16 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enterCityTextField: UITextField!
     @IBOutlet weak var weatherReportResult: UILabel!
     
-    // unsplash.com for application background image
-    // weather-forecast.com for weather data
-    
     // to-do
-    // - set up UI (background image, input fields, buttons) ---
-    // - set up weather-forecast.com appropriate url ---
-    // - get weather-forecast.com html for specified city ---
-    // - look into html and see if there is a specific area we can target to get weather description ---
-    // - parse html text and isolate weather description paragraph ---
-    // - output weather description to UI ---
     // - handle error scenario #1: user inputs incorrect city and gets no response
     // - handle error scenario #2: user inputs a city with spaces
     // - perform code cleanup and final touches
